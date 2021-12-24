@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
 		strict = true,
 		monochrome = true, 
 		features = {"src/test/resources/features/"},
-		tags={"@Vtiger1"},
+		tags={"@Vtiger"},
 		glue = {"com.test.stepdefinition","com.test.runner"}, 	
 		plugin = {
 	                "io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm",
