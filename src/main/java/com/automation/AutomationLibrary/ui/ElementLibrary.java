@@ -63,5 +63,7 @@ public interface ElementLibrary {
 	public void moveElement_JavaScript(WebElement element)throws Exception;
 	public boolean validateText(WebElement element, String expText) throws Exception;
 	public String getAttributeValue(UIElement element, String attributeName);
+	public void hilightElement(UIElement element);
+	public void hilightElement(WebElement element);
 	
 }

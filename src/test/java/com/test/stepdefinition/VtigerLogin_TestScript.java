@@ -61,6 +61,8 @@ public class VtigerLogin_TestScript extends BaseRunner{
 		prop.load(fis);
 		driver.get(prop.getProperty("Url"));
 		Thread.sleep(6000);
+		byte[] screenshot1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        scenario.embed(screenshot1, "image/png");
 	}
 	
 	/*

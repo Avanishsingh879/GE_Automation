@@ -410,6 +410,18 @@ public class ElementLibraryImpl implements ElementLibrary{
 	                wait.until(ExpectedConditions.presenceOfElementLocated(webDriverService.getBy(uiElement)));
 	                return webDriverService.findElement(uiElement).getAttribute(attributeName);
 	 }
+
+	@Override
+	public void hilightElement(UIElement element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void hilightElement(WebElement element) {
+		// TODO Auto-generated method stub
+		
+	}
 	 
 
 
