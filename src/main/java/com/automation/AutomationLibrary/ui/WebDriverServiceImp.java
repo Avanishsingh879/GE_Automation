@@ -85,11 +85,11 @@ public class WebDriverServiceImp implements WebdriverService {
                              osName.contains("linux") || osName.contains("Linux") 
                            )
 			{
-				System.setProperty("webdriver.chrome.driver","Browser\\chromedriver_95.exe");
+				System.setProperty("webdriver.chrome.driver","Browser\\chromedriver_103.exe");
 			}
 			else
 			{
-				System.setProperty("webdriver.chrome.driver","Browser\\chromedriver_95.exe");
+				System.setProperty("webdriver.chrome.driver","Browser\\chromedriver_103.exe");
 			}
 			
 			//making default download folder as target
